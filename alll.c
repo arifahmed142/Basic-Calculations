@@ -12,8 +12,7 @@ int main()
     printf("3. Voter Check\n");
     printf("4. Grade Calculator\n");
     printf("5. Form\n");
-    printf("6. Total mark in This semester\n");
-    printf("7. Interface\n\n");
+    printf("6. Total mark in This semester\n\n");
     printf("Enter Your chosen Number: ");
     scanf("%d", &a);
     switch(a){
@@ -189,47 +188,7 @@ int main()
             mark = (mark1*0.05)+(mark2*0.25)+(mark3*0.05)+(mark4*0.5);
             printf("\n\nTotal mark in This Semester: %d", mark);
             break;
-        case 7:
-            for (int a=1; a<8; a++)
-            {
-                for (int b=1; b<101; b++)
-                {
-                    if(a>2, a<5){
-                        if(b==33){
-                        printf("*");
-                        }
-                        else if(b==66){
-                            printf("*");
-                        }
-                        else{
-                            printf(" ");
-                        }
-                    }
-                    if(a>2, a<5){
-                        if(b==33){
-                        printf("*");
-                        }
-                        else if(b==66){
-                            printf("*");
-                        }
-                        else{
-                            printf(" ");
-                        }
-                    }
-                    else{
-                        if(b<33){
-                            printf(" ");
-                        }
-                        else if(b>66){
-                            printf(" ");
-                        }
-                        else{
-                            printf("*");
-                        }
-                    }
-                }
-                printf("\n");
-            }
+        
     }
     getch();
     return 0;
